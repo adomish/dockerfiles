@@ -5,5 +5,5 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    stdin_open: true
     tty: true
-    command: fish
